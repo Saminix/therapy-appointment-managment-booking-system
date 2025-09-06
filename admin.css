@@ -1,0 +1,196 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    min-height: 100vh;
+    background-image:linear-gradient(rgba(1,9,30,0.1),rgba(4,9,30,0.5)),url("../The_Therapy/images/backgg.jpg");
+    background-size: cover;
+	 position: relative;
+}
+
+.sidebar {
+  width: 280px;
+  background-color: black;
+  font-size: 23px;
+  color: white;
+  position: fixed;
+  height: 100%;
+  margin-right: 20px;
+}
+
+.sidebar a {
+  display: block;
+  color: white;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: orange;
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+
+
+}
+
+.front-button{
+    display: inline-block;
+    text-align:right;
+    text-decoration: none;
+    color:red;
+    border: 1px solid #220000;
+    padding: 12px 24px;
+    font-size: 14px;
+    background: tranparent;
+    cursor: pointer;
+}
+
+.front-button:hover{
+    border: 2px solid #691500;
+    background:  #edb036;
+    transition: 0.2s;
+}	
+
+h1{
+    text-align: center;
+    font-size: 25px;
+    color: white;
+}
+
+.UserTitle
+{
+  color: beige;
+  margin-top: 20px;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.text{
+  color: #FFDFD3;
+  margin-top: 10px;
+  background-color: ;
+}
+
+
+.title{
+	text-align: center;
+	color: red;
+}
+
+
+.newpassword{
+	text-align: right;
+	margin:1000px;
+}
+
+.search{
+	text-align: center;
+
+}
+
+.table td{padding: 14px 15px;}
+
+.table th{
+  font-size: 20px;
+  padding:11px;
+  font-family: sans-serif;
+  background-color: #483d8b ;
+  color: white;
+  text-align: center;
+}
+
+/*.table tr {text-align: left;}*/
+.table tr:nth-child(even) 
+{ 
+  background-color: white;
+ }
+
+
+
+
+ .cancel-button {
+  background-color: #660066; /* purple */
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  opacity:0.8;
+  display: inline-block;
+  font-size: 13px;
+/*  margin: 4px 2px;*/
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.cancel-button:hover {opacity: 1}
+
+
+.update-button {
+  background-color: #4CAF50; /* Green */
+  color: white;
+  transition: 0.3s;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+/*  margin: 4px 2px;*/
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.update-button:hover {opacity: 1}
+
+
+.delete-button {
+  background-color: darkred; /* red */
+  color: white;
+  border: none;
+  transition: 0.3s;
+  border-radius: 20px;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+   opacity: 0.8;
+/*  margin: 4px 2px;*/
+  cursor: pointer;
+
+}
+
+.delete-button:hover {opacity: 1}
+
+
+.confirm-button {
+  background-color: #2e8b57 ;
+  color: white;
+  border: none;
+  transition: 0.3s;
+  border-radius: 20px;
+  padding: 8px 12px;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 13px;
+   opacity: 0.9;
+/*  margin: 4px 2px;*/
+  cursor: pointer;
+
+}
+
+.confirm-button:hover {opacity: 1}
+

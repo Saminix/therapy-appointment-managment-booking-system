@@ -1,0 +1,63 @@
+<div class="gallery">
+  <a target="_blank" href="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80">
+    <img src="https://images.unsplash.com/photo-1573497620053-ea5300f94f21?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Talk to us" width="600" height="400">
+  </a>
+  <div class="desc">Needing someone to talk to, are practice comes and delivers everyday.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://images.unsplash.com/photo-1573497019236-17f8177b81e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80">
+    <img src="https://images.unsplash.com/photo-1573497019236-17f8177b81e8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1770&q=80" alt="Meet professionals" width="600" height="400">
+  </a>
+  <div class="desc">Meet the award winning team of professionals that are catered to your liking.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://media.istockphoto.com/id/1179479073/photo/man-writing-down-thoughts.jpg?b=1&s=170667a&w=0&k=20&c=bJYdU9S9Jf8jt2JN9gyU0Wi1-01w32Wb9PtVLxMkS7s=">
+    <img src="https://media.istockphoto.com/id/1179479073/photo/man-writing-down-thoughts.jpg?b=1&s=170667a&w=0&k=20&c=bJYdU9S9Jf8jt2JN9gyU0Wi1-01w32Wb9PtVLxMkS7s=" alt="Northern Lights" width="600" height="400">
+  </a>
+  <div class="desc">letting your inner thoughts come lose nd practice mindfullness together.</div>
+</div>
+
+<div class="gallery">
+  <a target="_blank" href="https://images.unsplash.com/photo-1576014131795-d440191a8e8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80">
+    <img src="https://images.unsplash.com/photo-1576014131795-d440191a8e8b?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1771&q=80" alt="Mountains" width="600" height="400">
+  </a>
+  <div class="desc">Its important to us that we can practice mindulness and resolution everyday. </div>
+</div>
+</div>
+
+.gallery {
+    font-size: 20px;
+    margin: 8.5px;
+    border: 4px solid rgb(0, 35, 80);
+    color:rgb(54, 0, 0);
+    cursor: pointor;
+    border-radius: 10px;
+    background-color:rgba(255, 245, 217, 0.541);
+    float: left;
+    
+    writing-mode: horizontal-tb;
+    border-radius: 0px 0px 20px;
+    width: 330px;
+    
+    
+    }
+    
+    .gallery:hover {
+    border: 4px solid rgb(255, 215, 164);
+    
+    }
+    
+    .gallery img {
+    width: 100%;
+    height: 245px;
+    
+    
+    }
+    
+    .desc {
+    padding: 25px;
+    text-align: center;
+    }
+    

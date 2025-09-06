@@ -1,0 +1,26 @@
+*{
+	margin: 0;
+	padding: 0;/* CSS Document */
+}
+.legend{
+	background-color: lightgoldenrodyellow;
+	padding: 30px 40px;
+	margin-left: 785px;
+}
+
+.fieldset{
+	display: inherit;
+	box-sizing: border-box;
+	height: 45px;
+	width: 100%;
+	background-color: rgba(255,255, 255, 0.17);
+	border: 2px solid rgba(255,255,255,0.1);
+	border-radius: 3px;
+	margin-top: 8px;
+	font-size: 14px;
+	font-weight: 300;
+	box-shadow:0 0 4px rgba(0,0,0,0.3);
+	transition: .3s box-shadow;
+	padding: 15px;
+
+}

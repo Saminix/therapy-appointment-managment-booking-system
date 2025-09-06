@@ -1,0 +1,157 @@
+
+
+body{
+  min-height: 100vh;
+	background-image:linear-gradient(rgba(1,9,30,0.1),rgba(4,9,30,0.5)),url("../The_Therapy/images/backgg.jpg");
+  background-size: cover;
+	position: relative;
+}
+
+
+
+.wrapper {
+	height: auto;
+	width: 650px;
+	background-color: rgba(187, 230, 255, 0.13);
+	padding: 10px 33px;
+	margin: auto;
+	margin-left: 600px;
+	margin-top: 4px;
+	border-radius: 30px;
+	border: 5px solid rgba(255,255,255,0.1);
+	font-family: 'Poppins',sans-serif;
+	font-weight: bold;
+	letter-spacing: 0.5px;
+	backdrop-filter: blur(15px);
+	color: white;
+}
+
+input.textbox{
+	display: inherit;
+	box-sizing: border-box;
+	height: 21px;
+	width: 100%;
+	border: 7px solid rgba(255,255,255,0.1);
+	border-radius: 8px;
+	margin-top: 16px;
+	margin-bottom: 26px;
+	font-size: 15px;
+	text-align: left;
+	font-weight: 300;
+	box-shadow:0 0 4px rgba(0,0,0,0.3);
+  transition: .3s box-shadow;
+  padding-bottom: 27px;
+	padding-top: 20px;
+}
+
+input.submit {
+	box-sizing: border-box;
+	color: #fff;
+	background-color: green;
+	padding: 10px 22px;
+	border: none;
+	cursor: pointer;
+	border-radius: 30px;
+	width: 100%;
+	margin-top: 28px;
+	font-size: 20px;
+	transition:.0.4s;
+	font-weight: bold;
+}
+
+input.submit {
+	background-color: #darkgreen;
+}
+
+input.sumbit {
+  background-color: #0a003a;
+  box-shadow: 0 5px #666;
+  cursor: pointer;
+  border-radius: 6px;
+
+  transform: translateY(4px);
+}
+
+
+input.submit:hover {background-color: black;}
+
+
+input.submit:active {
+  background-color: green;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+select.textbox{
+	display: inherit;
+	box-sizing: border-box;
+	height: 60px;
+	width: 100%;
+	border: 7px solid rgba(255,255,255,0.1);
+	border-radius: 23px;
+	margin-top: 11px;
+	margin-bottom: 20px;
+	font-size: 15px;
+	font-weight: 300;
+	box-shadow:0 0 4px rgba(0,0,0,0.3);
+  transition: .3s box-shadow;
+	padding: 12px;
+}
+
+h2
+{
+	font-weight: 800;
+	font-size: 40px;
+	line-height: 42px;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+p 
+{ font-style: oblique;
+	font-size: 15px;
+	margin-bottom: 35px;
+	text-align: center;
+}
+
+
+
+.backb{
+	
+  transition: 0.3s;
+	padding: 15px 25px;
+	margin-right: 40px;
+	opacity: 0.7;
+	text-decoration: none;
+	background: darkgreen;
+	color: white;
+	font-size: 17px;
+	border-radius: 20px;
+  float: right;
+
+}
+.backb:hover {opacity: 1}
+
+
+
+
+.alertDanger {
+	/* color: #de818a; */
+	 position: relative;
+   padding: 1.85rem 2.95rem;
+   margin-top: 20px;
+   margin-bottom: 25px;
+   border: 2px solid transparent;
+   border-radius: .25rem
+	font-size: medium;
+	font-weight: bolder;
+	color: #9e0010;
+	background-color: #f8d7da;
+	border-color: #f5c6cb;
+	text-align: center;
+}
+.alertdanger hr {
+	border-top-color: #f1b0b7
+}
+     
+

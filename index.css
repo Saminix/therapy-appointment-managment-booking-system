@@ -1,0 +1,143 @@
+
+*{
+	margin: 0;
+	padding: 0;/* CSS Document */
+
+}
+
+*{
+	margin: 0;
+	padding: 0;/* CSS Document */
+}
+
+.navigationbar{
+	text-align: center;
+
+}
+
+nav{
+	display: flex;
+	padding: 2% 5%;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.navbar-links{
+	flex: 1;
+	text-align: left;
+}
+	
+.navbar-links ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 8px 12px;
+	position: relative;
+}
+
+.navbar-links ul li a{
+    text-decoration: none;
+    font-size: 29px;
+    font-family: "Helvetica Neue";
+    
+    color: white;
+	font-weight: bold;
+}
+
+.navbar-links ul li::after{
+	content: '';
+	width: 0%;
+	height: 2px;
+	background: #B46D00;
+	display: block;
+	margin: auto;
+	transition: 0.6s;
+}
+.navbar-links ul li:hover::after{
+	width: 99%;
+}
+
+
+.base{
+	min-height: 100vh;
+	width: 100%;
+	position: relative;
+	background-image:linear-gradient(rgba(1,9,30,0.6),rgba(4,9,30,0.5)),url("../The_Therapy/images/mainpic.jpg");
+	background-size:cover;
+}
+
+.front-text{
+	width: 100%;
+	color: peachpuff;
+
+	position: absolute;
+	top: 40%;
+	/*left:50%;
+	transform: translate(-50%,-50%);*/
+	text-align: center;
+	margin:auto;
+}
+
+.front-text h1{
+	font-size: 100px;
+	font-weight: bolder;
+}
+
+.front-text p{
+	margin: 20px 0 50px;
+	font-family: sans-serif;
+	font-size: 14px;
+	color: linen;
+	font-weight: bold;
+}
+
+.front-button{
+	display: inline-block;
+	text-decoration: none;
+	color:white;
+	font-weight: bold;
+	font-family: sans-serif;
+	border: 3px solid #220000;
+	padding: 13px 35px;
+	font-size: 25px;
+	background-color:#330000;
+	opacity: 0.8;
+	cursor: pointer;
+	position: relative;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.front-button:hover{
+	border: 5px solid ;
+	background: #330000;
+	transition: 0.2px;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
